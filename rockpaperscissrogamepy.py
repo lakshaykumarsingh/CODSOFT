@@ -18,9 +18,9 @@ root.geometry("600x500")
 root.config(bg="#f0f8ff")
 
 # Load images
-rock_img = ImageTk.PhotoImage(Image.open(r"C:\Users\laksh\OneDrive\Desktop\rock.png").resize((100, 100)))
-paper_img = ImageTk.PhotoImage(Image.open(r"C:\Users\laksh\OneDrive\Desktop\paper.png").resize((100, 100)))
-scissors_img = ImageTk.PhotoImage(Image.open(r"C:\Users\laksh\OneDrive\Desktop\scissor.png").resize((100, 100)))
+rock_img = ImageTk.PhotoImage(Image.open(r"C:\Users\laksh\OneDrive\Desktop\rock.png").resize((100, 100)))  #PATH OF IMAGE "ROCK"
+paper_img = ImageTk.PhotoImage(Image.open(r"C:\Users\laksh\OneDrive\Desktop\paper.png").resize((100, 100))) #PATH OF IMAGE "PAPER"
+scissors_img = ImageTk.PhotoImage(Image.open(r"C:\Users\laksh\OneDrive\Desktop\scissor.png").resize((100, 100))) #PATH OF IMAGE 'SCISSOR"
 
 # Dictionary to map choices to images
 images = {
